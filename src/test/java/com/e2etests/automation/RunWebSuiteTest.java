@@ -22,8 +22,8 @@ import static io.cucumber.junit.CucumberOptions.SnippetType.CAMELCASE;
 @CucumberOptions(
 		features = {"src/spec/features"},
 		plugin = {"pretty","html:target/cucumber-report.html"},
-		tags = ("@connexion"),
-	 //  glue = {"com.e2etests.automation.step.definitions"},
+		tags = ("@Registre_T"),
+	// glue = {"com.e2etests.automation.step.definitions"},
 		monochrome = true,
 		snippets = CAMELCASE
 		
